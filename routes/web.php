@@ -11,4 +11,4 @@
 |
 */
 
-Route::get('/','cdController@showCd');
+Route::get('/','cdController@showCd')->name('cds');
